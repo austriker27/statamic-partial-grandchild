@@ -1,6 +1,8 @@
-{{ collection:blog_posts }}
-{{ partial:blog_posts/card_featured
-          :p_background_color="card:background_color"
-          :p_title="card:title"
-        }}
-{{ /collection:blog_posts }}
+<div class="">
+    {{ collection:blog_posts }}
+    {{ partial:blog_posts/card_featured
+        :p_background_color="background_color"
+        :p_title="card:title"
+    }}
+    {{ /collection:blog_posts }}
+</div>
